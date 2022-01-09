@@ -16,7 +16,7 @@ namespace SimpleCalculator
                 double secondNumber = inputConverter.ConvertInputToNum(Console.ReadLine());
                 string operation = Console.ReadLine();
 
-                double result = calculatorEngine.Calculate(operation, firstNumber, secondNumber);
+                double result = CalculatorEngine.Calculate(operation, firstNumber, secondNumber);
 
                 Console.WriteLine(result);
             }
